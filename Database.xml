@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_181" class="java.beans.XMLDecoder">
+ <object class="packageForOtherClasses.ListOfAccounts" id="ListOfAccounts0">
+  <void property="accounts">
+   <void method="add">
+    <object class="packageForOtherClasses.Account" id="Account0">
+     <void property="age">
+      <int>12</int>
+     </void>
+     <void property="password">
+      <string>lamisa</string>
+     </void>
+     <void property="userName">
+      <string>jahid</string>
+     </void>
+     <void property="vacArray">
+      <void index="0">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>3</int>
+        </void>
+        <void property="disName">
+         <string>Disease 1</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>2</int>
+          </void>
+          <void index="1">
+           <int>3</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>1</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 1</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>4</int>
+        </void>
+        <void property="date">
+         <object class="java.util.Date">
+          <long>1542165087340</long>
+         </object>
+        </void>
+        <void property="disName">
+         <string>Disease 2</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="3">
+          <void index="0">
+           <int>3</int>
+          </void>
+          <void index="1">
+           <int>6</int>
+          </void>
+          <void index="2">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>4</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 2</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>2</int>
+        </void>
+        <void property="disName">
+         <string>Disease 3</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="1">
+          <void index="0">
+           <int>1</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>2</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 3</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>1</int>
+        </void>
+        <void property="date">
+         <object class="java.util.Date">
+          <long>1542164587676</long>
+         </object>
+        </void>
+        <void property="disName">
+         <string>Disease 4</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="0"/>
+        </void>
+        <void property="numOfDoses">
+         <int>1</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>72</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 4</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 5</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>6</int>
+          </void>
+          <void index="1">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 5</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>2</int>
+        </void>
+        <void property="date">
+         <object class="java.util.Date">
+          <long>1542163116031</long>
+         </object>
+        </void>
+        <void property="disName">
+         <string>Disease 6</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>1</int>
+          </void>
+          <void index="1">
+           <int>2</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 6</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="packageForOtherClasses.Account" id="Account1">
+     <void property="age">
+      <int>12</int>
+     </void>
+     <void property="password">
+      <string>123</string>
+     </void>
+     <void property="userName">
+      <string>abc</string>
+     </void>
+     <void property="vacArray">
+      <void index="0">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>3</int>
+        </void>
+        <void property="disName">
+         <string>Disease 1</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>2</int>
+          </void>
+          <void index="1">
+           <int>3</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>1</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 1</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>4</int>
+        </void>
+        <void property="disName">
+         <string>Disease 2</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="3">
+          <void index="0">
+           <int>3</int>
+          </void>
+          <void index="1">
+           <int>6</int>
+          </void>
+          <void index="2">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>4</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 2</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 3</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="1">
+          <void index="0">
+           <int>1</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>2</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 3</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 4</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="0"/>
+        </void>
+        <void property="numOfDoses">
+         <int>1</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>72</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 4</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>3</int>
+        </void>
+        <void property="date">
+         <object class="java.util.Date">
+          <long>1542163701633</long>
+         </object>
+        </void>
+        <void property="disName">
+         <string>Disease 5</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>6</int>
+          </void>
+          <void index="1">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 5</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 6</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>1</int>
+          </void>
+          <void index="1">
+           <int>2</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 6</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="packageForOtherClasses.Account" id="Account2">
+     <void property="age">
+      <int>20</int>
+     </void>
+     <void property="password">
+      <string>1234</string>
+     </void>
+     <void property="userName">
+      <string>Ifti</string>
+     </void>
+     <void property="vacArray">
+      <void index="0">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>3</int>
+        </void>
+        <void property="disName">
+         <string>Disease 1</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>2</int>
+          </void>
+          <void index="1">
+           <int>3</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>1</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 1</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>4</int>
+        </void>
+        <void property="disName">
+         <string>Disease 2</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="3">
+          <void index="0">
+           <int>3</int>
+          </void>
+          <void index="1">
+           <int>6</int>
+          </void>
+          <void index="2">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>4</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 2</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>2</int>
+        </void>
+        <void property="disName">
+         <string>Disease 3</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="1">
+          <void index="0">
+           <int>1</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>2</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>6</int>
+        </void>
+        <void property="takenOrNot">
+         <boolean>true</boolean>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 3</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 4</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="0"/>
+        </void>
+        <void property="numOfDoses">
+         <int>1</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>72</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 4</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="disName">
+         <string>Disease 5</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>6</int>
+          </void>
+          <void index="1">
+           <int>12</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 5</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="packageForOtherClasses.Vaccine">
+        <void property="currentDoseNum">
+         <int>2</int>
+        </void>
+        <void property="date">
+         <object class="java.util.Date">
+          <long>1542164283605</long>
+         </object>
+        </void>
+        <void property="disName">
+         <string>Disease 6</string>
+        </void>
+        <void property="gapsBetweenDoses">
+         <array class="int" length="2">
+          <void index="0">
+           <int>1</int>
+          </void>
+          <void index="1">
+           <int>2</int>
+          </void>
+         </array>
+        </void>
+        <void property="numOfDoses">
+         <int>3</int>
+        </void>
+        <void property="preAgeToStart">
+         <int>12</int>
+        </void>
+        <void property="vacName">
+         <string>Vaccine 6</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

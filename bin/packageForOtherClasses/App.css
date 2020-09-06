@@ -1,0 +1,51 @@
+.button{
+
+-fx-background-color: radial-gradient(radius 200%,  #20b2aa, #5f9ea0,#b0c4de );
+-fx-font-family: system-ui;
+-fx-font-size: 15px;
+-fx-text-fill: #dddddd;
+-fx-font-weight: bold;
+
+}
+
+.check-box{
+-fx-font-size: 12px;
+-fx-font-family: system-ui;
+-fx-text-fill: #dddddd;
+-fx-font-weight: bold;
+}
+
+.label{
+-fx-font-size: 12px;
+-fx-text-fill: #dddddd;
+-fx-font-family: system-ui;
+-fx-font-weight: bold;
+}
+
+.root{
+
+-fx-background-image: url("pro9.jpeg");
+-fx-background-size: 400 700;
+
+}
+
+.menu-button{
+
+-fx-background-color: radial-gradient(radius 200%,  #20b2aa, #5f9ea0,#b0c4de );
+-fx-font-size: 20px;
+-fx-font-family: system-ui;
+-fx-text-fill: #dddddd;
+-fx-font-weight: bold;
+
+}
+
+
+.menu-item{
+
+-fx-background-color: radial-gradient(radius 200%,  #20b2aa, #5f9ea0,#b0c4de );
+-fx-font-size: 15px;
+-fx-text-fill: #dddddd;
+-fx-font-weight: bold;
+
+}
+

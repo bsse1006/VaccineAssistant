@@ -1,0 +1,23 @@
+.button{
+
+-fx-background-color: radial-gradient(radius 200%, #20b2aa, #5f9ea0,#b0c4de );
+-fx-font-size: 15px;
+-fx-text-fill: #dddddd;
+-fx-font-family: system-ui;
+-fx-font-weight: bold;
+
+}
+
+.label{
+-fx-font-size: 3.1mm;
+-fx-text-fill: #dddddd;
+-fx-font-family: system-ui;
+-fx-font-weight: bold;
+}
+
+.root{
+
+-fx-background-image: url("pro9.jpeg");
+-fx-background-size: 400 700;
+
+}
